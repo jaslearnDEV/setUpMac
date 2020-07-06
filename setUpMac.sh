@@ -8,7 +8,7 @@ else
     brew update    
 fi
 #installs openJDK 11, git
-brew cask java
+brew install java
 brew install git
 brew cask install atom
 brew cask install google-chrome
