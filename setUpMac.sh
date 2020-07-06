@@ -5,7 +5,7 @@ if [[ $? != 0 ]] ; then
     # Install Homebrew
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
-<<<<<<< HEAD
+
     brew update
 fi
 
@@ -19,5 +19,3 @@ brew install ansible
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 #as sudo  this requires a password.
 sudo installer -pkg ./AWSCLIV2.pkg -target /
-<<<<<<< HEAD
-=======
