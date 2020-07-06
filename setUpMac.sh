@@ -5,10 +5,8 @@ if [[ $? != 0 ]] ; then
     # Install Homebrew
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
-    brew update
-    brewCheck="yes"
-
-if(brewCheck=="yes")
+    brew update    
+fi
 #installs openJDK 11, git
 brew cask java
 brew install git
@@ -20,4 +18,4 @@ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 #as sudo  this requires a password.
 sudo installer -pkg ./AWSCLIV2.pkg -target /
 
-fi
+
