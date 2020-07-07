@@ -1,6 +1,6 @@
 #Pre-req: need connection to internet
 #install home brew
-
+which -s brew
 if [[ $? != 0 ]] ; then
     # Install Homebrew
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
